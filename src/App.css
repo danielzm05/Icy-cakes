@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Modak&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --white: #fffad7;
+  --black: #000000;
+  --purple: #9376e0;
+  --yellow: #f0b033;
+  --green: #aacb73;
+  --pink: #f8c0cd;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--white);
+  /* overflow-x: hidden; */
+}
+
+main {
+  position: relative;
+}
+
+.section {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.section.first {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  background: url("./img/inicio.png") center center no-repeat;
+  background-size: cover;
+}
+
+.section.first h1 {
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120px;
+  text-align: center;
+}
+
+.section.second {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 60px 0 0 60px;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.section.second h2 {
+  font-size: "Montserrat", sans-serif;
+  font-size: 60px;
+}
+
+.section.second span {
+  width: 70%;
+  font-size: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.section.third {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+}
+
+.section.third span {
+  display: grid;
+  place-content: center;
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8vw;
+  color: var(--white);
+}
+
+.section.third span:nth-child(1) {
+  background: var(--purple);
+}
+
+.section.third span:nth-child(2) {
+  background: var(--yellow);
+}
+
+.section.third span:nth-child(3) {
+  background: var(--pink);
+}
+
+.section.third span:nth-child(4) {
+  background: var(--green);
+}
+
+.section.forth {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: var(--purple);
+  color: var(--white);
+
+  section:nth-child(1) {
+    display: flex;
+    padding: 100px 10px 40px 20px;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 14px;
+    gap: 30px;
+    border: 1px solid;
+
+    h2 {
+      font-size: 40px;
+    }
+  }
+
+  div {
+    background: url("./img/ice-cream-white.png") center center no-repeat;
+    background-size: cover;
+  }
+}
+
+.ice-cream-cup {
+  width: 45vw;
+  position: absolute;
+  top: 500px;
+  right: 0;
+}
+
+.sticker {
+  width: 200px;
+  position: absolute;
+  top: 1960px;
+  left: 0;
+}
