@@ -32,9 +32,9 @@ header {
   ul {
     display: flex;
     align-items: center;
-    border: 1px solid;
     gap: 40px;
     list-style: none;
+    color: var(--white);
 
     li:hover {
       cursor: pointer;
@@ -70,6 +70,7 @@ main {
   font-style: normal;
   font-size: 120px;
   text-align: center;
+  user-select: none;
 }
 
 .section.second {
