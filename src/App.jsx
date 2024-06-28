@@ -1,10 +1,19 @@
 import iceCreamCup from "./img/ice-cream-cup.png";
 import sticker from "./img/sticker.png";
+import * as Icon from "react-feather";
 import "./App.css";
 
 function App() {
   return (
     <>
+      <header>
+        <ul>
+          <li>Productos</li>
+          <li>
+            <Icon.ShoppingCart />
+          </li>
+        </ul>
+      </header>
       <main>
         <section class="section first">
           <h1>ICY CAKES</h1>

@@ -20,6 +20,30 @@ body {
   /* overflow-x: hidden; */
 }
 
+header {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 30px 20px;
+  position: absolute;
+  background-color: none;
+  z-index: 1;
+
+  ul {
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    gap: 40px;
+    list-style: none;
+
+    li:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+      transition: 0.5s ease;
+    }
+  }
+}
+
 main {
   position: relative;
 }
@@ -113,7 +137,6 @@ main {
     justify-content: end;
     font-size: 14px;
     gap: 30px;
-    border: 1px solid;
 
     h2 {
       font-size: 40px;
