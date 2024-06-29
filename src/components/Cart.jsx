@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 export function Cart({ isOpen, onClose }) {
   if (!isOpen) return null;
-  const { carrito } = useCarritoContext();
+  const { carrito, removeProduct } = useCarritoContext();
 
   return (
     <div className="cart-container">
@@ -19,6 +19,12 @@ export function Cart({ isOpen, onClose }) {
           {carrito &&
             carrito.map((product) => (
               <div className="cart-product" key={product.id}>
+                <button
+                  className="delete-product"
+                  onClick={() => removeProduct(product.id)}
+                >
+                  <Icon.X />
+                </button>
                 <img src={product.imagen} alt={product.nombre} />
                 <span className="text">
                   <b>{product.nombre}</b>
