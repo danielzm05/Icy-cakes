@@ -9,9 +9,18 @@ export const useCarritoContext = () => {
 export const CarritoProvider = ({ children }) => {
   const [carrito, setCarrito] = useState([]);
 
-  const addProduct = (product) => {
-    setCarrito([...carrito, product]);
-    console.log(carrito);
+  const addProduct = (newProduct) => {
+    setCarrito((prevCarrito) => {
+      if (prevCarrito.find((item) => item.id === newProduct.id)) {
+        return prevCarrito.map((item) =>
+          item.id === newProduct.id
+            ? { ...item, cantidad: item.cantidad + 1 }
+            : item
+        );
+      } else {
+        return [...prevCarrito, { ...newProduct, cantidad: 1 }];
+      }
+    });
   };
 
   return (
