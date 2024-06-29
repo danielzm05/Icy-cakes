@@ -1,13 +1,19 @@
 import iceCreamCup from "../img/ice-cream-cup.png";
 import sticker from "../img/sticker.png";
 import * as Icon from "react-feather";
+import { useNavigate } from "react-router-dom";
+import { Cart } from "../components/Cart";
+import { useState } from "react";
 export function MainPage() {
+  const [openCart, setOpenCart] = useState(false);
+  const navigate = useNavigate();
+
   return (
     <>
       <header>
         <ul>
-          <li>Productos</li>
-          <li>
+          <li onClick={() => navigate("/productos")}>Productos</li>
+          <li onClick={() => setOpenCart(true)}>
             <Icon.ShoppingCart />
           </li>
         </ul>
@@ -51,7 +57,7 @@ export function MainPage() {
               superar las expectativas de nuestros clientes y convertir cada
               momento en una celebración de sabor y frescura.
             </span>
-            <h2>VISION</h2>
+            <h2>VISIÓN</h2>
             <span>
               Nos visualizamos como líderes en innovación dentro de la industria
               de helados, ofreciendo constantemente nuevos sabores y
@@ -71,6 +77,7 @@ export function MainPage() {
 
           <img src={sticker} className="sticker" alt="sticker" />
         </section>
+        <Cart isOpen={openCart} onClose={() => setOpenCart(false)} />
       </main>
     </>
   );

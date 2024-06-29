@@ -7,6 +7,8 @@
   --yellow: #f0b033;
   --green: #aacb73;
   --pink: #f8c0cd;
+  --grey: #494949;
+  --hover: #00000086;
 }
 * {
   box-sizing: border-box;

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "Peanut Butter Delight",
+    "descripcion": "Helado de chocolate con leche con capas de mantequilla de maní y cacahuetes. Cubierto con crema batida, maní, taza de mantequilla de maní y una galleta.",
+    "imagen": "https://static.wixstatic.com/media/0ad619_314aa934a65446d6a03fbfe4927d8698~mv2.png/v1/fill/w_318,h_520,q_82/0ad619_314aa934a65446d6a03fbfe4927d8698~mv2.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "Marshmallow Chocolate",
+    "descripcion": "Helado de chocolate con leche con capas de galleta y crema de malvavisco. Cubierto con crema batida, malvavisco y chocolate.",
+    "imagen": "https://static.wixstatic.com/media/0ad619_75096cb1e63341bcb53f8bcba9f03aa5~mv2.png/v1/fill/w_317,h_519,q_82/0ad619_75096cb1e63341bcb53f8bcba9f03aa5~mv2.webp"
+  },
+  {
+    "id": 3,
+    "nombre": "Caramel Coffee Crunch",
+    "descripcion": "Helado de café con caramelo, junto con capas de galleta de chocolate y caramelo. Cubierto con un brownie, galleta triturada y salsa de caramelo",
+    "imagen": "https://static.wixstatic.com/media/0ad619_9855f50d541e4d0993b318ddf3fa3248~mv2.png/v1/fill/w_318,h_520,q_82/0ad619_9855f50d541e4d0993b318ddf3fa3248~mv2.webp"
+  },
+  {
+    "id": 4,
+    "nombre": "Blueberry Cheesecake",
+    "descripcion": "Helado de cheesecake con arándanos en capas de galleta y cobertura de fresa. Cubierto con crema batida, una galleta y una cereza ",
+    "imagen": "https://static.wixstatic.com/media/0ad619_fe4b826c06c44cfea37f69d3a584f9ff~mv2.png/v1/fill/w_317,h_519,q_82/0ad619_fe4b826c06c44cfea37f69d3a584f9ff~mv2.webp"
+  },
+  {
+    "id": 5,
+    "nombre": "Vanilla Sprinkle",
+    "descripcion": "Helado de vainilla con capas de pastel, chispas y crema de malvavisco. Cubierto con crema batida, chispas, un cupcake y una paleta de caramelo masticable",
+    "imagen": "https://static.wixstatic.com/media/0ad619_cb7e7f5b1e9247abb0690eedad1ae5dc~mv2.png/v1/fill/w_318,h_520,q_82/0ad619_cb7e7f5b1e9247abb0690eedad1ae5dc~mv2.webp"
+  },
+  {
+    "id": 6,
+    "nombre": "Banana Nut",
+    "descripcion": "Helado de banana split con capas de nueces confitadas, chocolate y jarabe de caramelo. Cubierto con crema batida, nueces confitadas y un brownie.",
+    "imagen": "https://static.wixstatic.com/media/0ad619_9aca0f4488fc4fa1bef93f4f709e19d4~mv2.png/v1/fill/w_317,h_519,q_82/0ad619_9aca0f4488fc4fa1bef93f4f709e19d4~mv2.webp"
+  },
+  {
+    "id": 7,
+    "nombre": "Chocolate Cookie Overload",
+    "descripcion": "Helado de vainilla con capas de galletas de chocolate y jarabe de chocolate. Cubierto con crema batida, más galletas, jarabe de chocolate y galletas de chocolate.",
+    "imagen": "https://static.wixstatic.com/media/0ad619_8df8ba8b0346428bb4c197c228957694~mv2.png/v1/fill/w_318,h_494,q_82/0ad619_8df8ba8b0346428bb4c197c228957694~mv2.webp"
+  },
+  {
+    "id": 8,
+    "nombre": "Mint Marshmallow Magic",
+    "descripcion": "Helado de menta granizada con capas de mini malvaviscos y jarabe de chocolate y una galleta.",
+    "imagen": "https://static.wixstatic.com/media/0ad619_b23cfa8a73fd442cbdbddcfa3f5f672d~mv2.png/v1/fill/w_317,h_519,q_82/0ad619_b23cfa8a73fd442cbdbddcfa3f5f672d~mv2.webp"
+  },
+  {
+    "id": 9,
+    "nombre": "Strawberry Fantasy",
+    "descripcion": "Helado de chocolate con leche con capas de cobertura de fresa y jarabe de chocolate. Cubierto con crema batida, barras de chocolate y una cereza.",
+    "imagen": "https://static.wixstatic.com/media/0ad619_ffcce4653a34419ab1f4ed2c82568f2e~mv2.png/v1/fill/w_318,h_520,q_82/0ad619_ffcce4653a34419ab1f4ed2c82568f2e~mv2.webp"
+  },
+  {
+    "id": 10,
+    "nombre": "Caramel Marshmallow",
+    "descripcion": "Helado de dulce de leche con capas de caramelo y mini malvaviscos. Cubierto con una galleta, salsa de caramelo y crema batida.",
+    "imagen": "https://static.wixstatic.com/media/0ad619_8df8ba8b0346428bb4c197c228957694~mv2.png/v1/fill/w_318,h_494,q_82/0ad619_8df8ba8b0346428bb4c197c228957694~mv2.webp"
+  }
+]
