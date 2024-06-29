@@ -19,11 +19,11 @@ export function MainPage() {
         </ul>
       </header>
       <main>
-        <section class="section first">
+        <section className="section first">
           <h1>ICY CAKES</h1>
           <span>SAVOR EVERY SPOONFUL</span>
         </section>
-        <section class="section second">
+        <section className="section second">
           <h2>
             Sobre <br />
             Nosotros
@@ -40,13 +40,13 @@ export function MainPage() {
           </span>
         </section>
 
-        <section class="section third">
-          <span class="name">ICY CAKES</span>
-          <span class="name">ICY CAKES</span>
-          <span class="name">ICY CAKES</span>
-          <span class="name">ICY CAKES</span>
+        <section className="section third">
+          <span className="name">ICY CAKES</span>
+          <span className="name">ICY CAKES</span>
+          <span className="name">ICY CAKES</span>
+          <span className="name">ICY CAKES</span>
         </section>
-        <section class="section forth">
+        <section className="section forth">
           <section>
             <h2>MISIÓN</h2>
             <span>

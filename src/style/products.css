@@ -1,7 +1,65 @@
 .products-page {
+  position: relative;
+  background-color: var(--white);
+
   h1 {
+    position: absolute;
     font-family: "Modak", system-ui;
     font-weight: 400;
     font-style: normal;
+    font-size: 60px;
+    padding: 10px 0 0 25px;
+    color: var(--white);
+  }
+
+  .products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    gap: 5px;
+    overflow: hidden;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+    padding-bottom: 10px;
+    background-color: var(--green);
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 0.5s;
+
+    img {
+      height: 400px;
+      margin: auto;
+      filter: drop-shadow(8px 5px var(--white));
+    }
+
+    .title {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+    }
+
+    .description {
+      padding: 10px;
+      text-align: center;
+      opacity: 0;
+      height: 0;
+      overflow: hidden;
+    }
+  }
+
+  .product:nth-child(2n + 1) {
+    background-color: var(--yellow);
+  }
+
+  .product:nth-child(4n + 2) {
+    background: var(--purple);
+  }
+
+  .product:nth-child(4n + 3) {
+    background-color: var(--pink);
   }
 }
