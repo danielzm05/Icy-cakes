@@ -12,7 +12,7 @@ export function Products() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("../../public/products.json")
+    fetch("/products.json")
       .then((response) => response.json())
       .then((data) => setProducts(data))
       .catch((error) => console.error("Error al cargar los productos:", error));
