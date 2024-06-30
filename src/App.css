@@ -77,10 +77,18 @@ main {
 .section.second {
   display: flex;
   flex-direction: column;
+  position: relative;
   gap: 10px;
   padding: 60px 0 0 60px;
   color: var(--black);
   background-color: var(--white);
+
+  .ice-cream-cup {
+    width: 45vw;
+    position: absolute;
+    top: -200px;
+    right: 0;
+  }
 }
 
 .section.second h2 {
@@ -128,6 +136,7 @@ main {
 
 .section.forth {
   display: grid;
+  position: relative;
   grid-template-columns: repeat(2, 1fr);
   background-color: var(--purple);
   color: var(--white);
@@ -145,22 +154,14 @@ main {
     }
   }
 
-  div {
+  section:nth-child(2) {
     background: url("./img/ice-cream-white.png") center center no-repeat;
     background-size: cover;
   }
 }
-
-.ice-cream-cup {
-  width: 45vw;
-  position: absolute;
-  top: 500px;
-  right: 0;
-}
-
 .sticker {
   width: 200px;
   position: absolute;
-  top: 1960px;
+  top: -120px;
   left: 0;
 }

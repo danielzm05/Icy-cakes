@@ -38,6 +38,11 @@ export function MainPage() {
             clásicos como red velvet hasta creaciones innovadoras que te
             sorprenderán.
           </span>
+          <img
+            src={iceCreamCup}
+            className="ice-cream-cup"
+            alt="glass with icecream"
+          />
         </section>
 
         <section className="section third">
@@ -67,14 +72,7 @@ export function MainPage() {
               autenticidad y la satisfacción del cliente.
             </span>
           </section>
-
-          <div></div>
-          <img
-            src={iceCreamCup}
-            className="ice-cream-cup"
-            alt="glass with icecream"
-          />
-
+          <section></section>
           <img src={sticker} className="sticker" alt="sticker" />
         </section>
         <Cart isOpen={openCart} onClose={() => setOpenCart(false)} />
