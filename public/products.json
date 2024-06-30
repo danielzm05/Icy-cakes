@@ -52,11 +52,5 @@
     "nombre": "Strawberry Fantasy",
     "descripcion": "Helado de chocolate con leche con capas de cobertura de fresa y jarabe de chocolate. Cubierto con crema batida, barras de chocolate y una cereza.",
     "imagen": "https://static.wixstatic.com/media/0ad619_ffcce4653a34419ab1f4ed2c82568f2e~mv2.png/v1/fill/w_318,h_520,q_82/0ad619_ffcce4653a34419ab1f4ed2c82568f2e~mv2.webp"
-  },
-  {
-    "id": 10,
-    "nombre": "Caramel Marshmallow",
-    "descripcion": "Helado de dulce de leche con capas de caramelo y mini malvaviscos. Cubierto con una galleta, salsa de caramelo y crema batida.",
-    "imagen": "https://static.wixstatic.com/media/0ad619_8df8ba8b0346428bb4c197c228957694~mv2.png/v1/fill/w_318,h_494,q_82/0ad619_8df8ba8b0346428bb4c197c228957694~mv2.webp"
   }
 ]
